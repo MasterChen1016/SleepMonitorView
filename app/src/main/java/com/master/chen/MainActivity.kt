@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val s = mutableListOf<SleepEntry>()
         s.add(SleepEntry(SleepType.SOBER, 18 * 60))//清醒18分钟
         s.add(SleepEntry(SleepType.DEEP, 259 * 60))//深睡259分钟
-        s.add(SleepEntry(SleepType.LIGHT, 5 * 60))//浅睡醒5分钟
+        s.add(SleepEntry(SleepType.LIGHT, 5 * 60))//浅睡5分钟
         s.add(SleepEntry(SleepType.DEEP, 68 * 60))//深睡68分钟
         s.add(SleepEntry(SleepType.LIGHT, 10 * 60))//浅睡10分钟
         s.add(SleepEntry(SleepType.SOBER, 18 * 60))//清醒18分钟
