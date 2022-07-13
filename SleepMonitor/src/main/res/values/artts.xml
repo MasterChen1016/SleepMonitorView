@@ -2,9 +2,9 @@
 <resources>
     <declare-styleable name="SleepMonitView">
         <attr name="septalLineHigh" format="dimension"/> <!--间隔线高度-->
-        <attr name="soberColumnColor" format="reference|color"/> <!--清醒柱子颜色-->
-        <attr name="lightColumnColor" format="reference|color"/> <!--浅睡柱子颜色-->
-        <attr name="deepColumnColor" format="reference|color"/> <!--深睡柱子颜色-->
+        <attr name="soberColumnColor" format="reference|color"/> <!--清醒矩形颜色-->
+        <attr name="lightColumnColor" format="reference|color"/> <!--浅睡矩形颜色-->
+        <attr name="deepColumnColor" format="reference|color"/> <!--深睡矩形颜色-->
         <attr name="backgroundColor" format="reference|color"/> <!--背景色-->
         <attr name="septalLineColor" format="reference|color"/> <!--间隔线颜色-->
     </declare-styleable>

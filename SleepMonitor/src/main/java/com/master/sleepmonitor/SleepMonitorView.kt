@@ -76,7 +76,7 @@ class SleepMonitView(context: Context, attributeSet: AttributeSet) : View(contex
         canvas.drawColor(mBackgroundColor)
         //画4条间隔线
         drawLine(canvas)
-        //画柱子
+        //画矩形
         drawColumn(canvas)
         canvas.restore()
     }
