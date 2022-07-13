@@ -51,3 +51,5 @@ private fun getSleepData(): MutableList<SleepEntry> {
 
 #### 公司项目
 ![](https://github.com/441907002/SleepMonitorView/blob/master/app.png)
+#### Demo
+[Apk下载](https://github.com/MasterChen1016/SleepMonitorView/releases)
