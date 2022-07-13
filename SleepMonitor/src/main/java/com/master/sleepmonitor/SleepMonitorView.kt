@@ -34,7 +34,7 @@ class SleepMonitView(context: Context, attributeSet: AttributeSet) : View(contex
         mSeptalLineHigh = obt.getDimension(R.styleable.SleepMonitView_septalLineHigh, 1.dp)
         columnColors.add(//浅睡柱子颜色
             obt.getColor(
-                R.styleable.SleepMonitView_soberColumnColor,
+                R.styleable.SleepMonitView_lightColumnColor,
                 Color.parseColor("#4FF5FC")
             )
         )
@@ -46,7 +46,7 @@ class SleepMonitView(context: Context, attributeSet: AttributeSet) : View(contex
         )
         columnColors.add(//清醒柱子颜色
             obt.getColor(
-                R.styleable.SleepMonitView_lightColumnColor,
+                R.styleable.SleepMonitView_soberColumnColor,
                 Color.parseColor("#CCCDD0")
             )
         )
