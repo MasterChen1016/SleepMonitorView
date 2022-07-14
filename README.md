@@ -33,6 +33,19 @@
 
 #### 使用
 ```
+添加远程仓库
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+```
+添加依赖
+implementation 'com.github.MasterChen1016:SleepMonitorView:1.0.0'
+```
+```
 sleepView.mData = getSleepData()
 
 //模拟数据
