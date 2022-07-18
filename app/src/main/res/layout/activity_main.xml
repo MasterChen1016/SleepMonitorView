@@ -16,9 +16,9 @@
             android:layout_height="300dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:backgroundColor="@color/white"
             app:deepColumnColor="#01C8E4"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:lightColumnColor="#4FF5FC"
             app:soberColumnColor="#CCCDD0" />
